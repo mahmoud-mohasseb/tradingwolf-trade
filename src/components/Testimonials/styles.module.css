@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Rubik:ital,wght@0,300;1,400&display=swap');
+
+.testimonials {
+    align-items: center;
+    text-align:center;
+    padding: 3rem 0;
+    color:rgb(74, 73, 162);
+};
+.tradecontainer {
+  margin:40px;
+}
+.testimonials > h2 {
+  font-weight:900;
+  font-size:50px;
+}
+.avatar {
+  margin-top:-40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin:10px;
+    border-radius:20px;
+    padding:10px;
+    transition: 0.3s;
+    width: 20%;
+  };
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
