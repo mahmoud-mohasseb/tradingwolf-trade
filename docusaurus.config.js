@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'TradingWolf',
   tagline: 'IMPROVE TRADING SKILLS WITH SMART ALGORITHMS',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://tradingwolf.com/',
   baseUrl: '/',
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "ignore",
@@ -102,11 +102,15 @@ const config = {
             dropdownItemsBefore: [],
           },
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Getting Started',
+            label: 'Getting started',
+            href: '/docs/category/-fqa',
           },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Getting Started',
+          // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://discord.com/invite/tradingwolf',
@@ -148,14 +152,19 @@ const config = {
               //   label: 'Tutorial',
               //   to: '/docs/intro',
               // },
+                 {
+                label: 'Getting started',
+                to: '/docs/category/-getting-started',
+              },
               {
                 label: 'FQA',
-                to: '/docs/fqa/markdown-features',
+                to: '/docs/category/-fqa',
               },
               {
                 label: 'Technical-analytics',
-                to: '/docs/fqa/manage-docs-versions',
+                to: '/docs/category/-technical-analytics',
               },
+           
             ],
           },
           {

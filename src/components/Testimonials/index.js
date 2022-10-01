@@ -31,6 +31,12 @@ const Testimonials = () => {
         Aos.init({ duration: 1400, delay: 200 });
       }, []);
     
+const cardsStyle = {
+    display:"flex", flexDirection :'row',justifyContent:"center" ,textAlign:"center",
+    '@media screen and (max-width: 996px)': {
+        flexDirection :'column'
+      },
+}
   return (
  <div className={styles.tradecontainer}>
  <div className={styles.testimonials}>
@@ -40,11 +46,11 @@ const Testimonials = () => {
 </h2>
 </div>
 {/*  */}
-<div style={{display:"flex" ,justifyContent:"center" ,textAlign:"center"}}>
+<div style={cardsStyle}  data-aos="fade-right">
 {data.map((item ,index)=>(
   <div
    className={styles.card}
-   data-aos="fade-right"
+  
   >
   <img className={styles.avatar} src={item.image} alt="Avatar" />
   <div key={index}>
