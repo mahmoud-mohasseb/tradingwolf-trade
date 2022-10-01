@@ -3,11 +3,11 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Slidercustomer from '@site/src/components/Slidercustomer';
-import Testimonials from "@site/src/components/Testimonials";
-import HeroSection from "@site/src/components/HeroSection";
-import Realtime from "@site/src/components/Realtime";
+// import HomepageFeatures from '@site/src/components/HomepageFeatures';
+// import Slidercustomer from '@site/src/components/Slidercustomer';
+// import Testimonials from "@site/src/components/Testimonials";
+// import HeroSection from "@site/src/components/HeroSection";
+// import Realtime from "@site/src/components/Realtime";
 import styles from './index.module.css';
 
 // function HomepageHeader() {
@@ -28,7 +28,6 @@ import styles from './index.module.css';
 //     </header>
 //   );
 // }
-
 const frontpageData =[
   {
     title : "🏁 Getting Started",
@@ -69,7 +68,8 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       {/* <HomepageHeader /> */}
-      <main className="container">
+      <main>
+        <div className="container">
        <div className={styles.gridflow}>
         {frontpageData.map((item)=> {
           return (
@@ -84,6 +84,7 @@ export default function Home() {
            </div>
           )
         })}
+        </div>
         </div>
         {/* <HeroSection/> */}
         {/* <Testimonials/> */}
