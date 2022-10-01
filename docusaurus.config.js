@@ -1,9 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
 /** @type {import('@docusaurus/types').Config} */
 
 const config = {
@@ -69,7 +67,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     (
-  
       {
       announcementBar: {
         id: "TradeWolf_trade with us",
@@ -176,7 +173,7 @@ const config = {
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.com/invite/tradingwolf',
               },
               {
                 label: 'Twitter',
@@ -205,8 +202,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-
-  
 };
 
 module.exports = config;

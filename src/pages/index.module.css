@@ -23,7 +23,7 @@
   justify-content: center;
 }
 
-h1 , h2 ,h4 { 
+h1 ,h2 ,h4 { 
   font-family: 'Rubik', sans-serif;
   font-weight:300;
   /* color:rgb(74, 73, 162); */
@@ -33,4 +33,32 @@ p {
   font-family: 'Rubik', sans-serif;
   font-size:20px;
   color:rgb(74, 73, 162);
+}
+
+.gridflow {
+ justify-content:center;
+ text-align:center;
+ display:grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-gap: 40px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin:10px;
+  border-radius:20px;
+  padding:20px;
+  transition: 0.3s;
+  border-style: solid;
+  border-color: coral;
+  /* width: 50%; */
+};
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 996px) {
+  .gridflow{
+    grid-template-columns: 1fr 1fr;
+  }
 }

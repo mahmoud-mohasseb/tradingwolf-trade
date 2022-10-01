@@ -50,7 +50,6 @@ const cardsStyle = {
 {data.map((item ,index)=>(
   <div
    className={styles.card}
-  
   >
   <img className={styles.avatar} src={item.image} alt="Avatar" />
   <div key={index}>
