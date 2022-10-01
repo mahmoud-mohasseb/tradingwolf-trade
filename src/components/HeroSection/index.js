@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 import Link from '@docusaurus/Link';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { BsGraphUp } from "react-icons/bs";
+import { MdOutlineAutoGraph } from "react-icons/md";
 
 const HeroSection = () => {
     useEffect(() => {
