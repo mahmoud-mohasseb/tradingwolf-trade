@@ -11,8 +11,8 @@ const config = {
   tagline: 'IMPROVE TRADING SKILLS WITH SMART ALGORITHMS',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "ignore",
+  onBrokenMarkdownLinks: "ignore",
   // favicon: 'img/favicon.ico',
   favicon: 'https://www.tradingwolf.com/wp-content/uploads/2022/07/tradingwolf-icon.png.webp',
   // GitHub pages deployment config.
