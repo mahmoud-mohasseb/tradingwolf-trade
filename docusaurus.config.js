@@ -115,18 +115,18 @@ const config = {
             position: 'right',
           },
           {
-            href: "https://www.tradingwolf.com/pricing-plans/",
+            to: "https://www.tradingwolf.com/",
+            label: "OurWebsite",
+            position: "left",
+          },
+          {
+            to: "https://www.tradingwolf.com/pricing-plans/",
             label: "SignUp",
             position: "left",
           },
           {
-            href: "https://www.tradingview.com/u/LuxAlgo/#published-scripts",
+            to: "https://www.tradingwolf.com/features/overlay-indicators/",
             label: "TradingView",
-            position: "left",
-          },
-          {
-            href: "https://www.tradingwolf.com/",
-            label: "OurWebsite",
             position: "left",
           },
         ],
@@ -149,19 +149,19 @@ const config = {
               //   label: 'Tutorial',
               //   to: '/docs/intro',
               // },
-                 {
-                label: 'Getting started',
-                to: '/docs/category/-getting-started',
-              },
               {
                 label: 'FQA',
                 to: '/docs/category/-fqa',
               },
+          
               {
                 label: 'Technical-analytics',
                 to: '/docs/category/-technical-analytics',
               },
-           
+              {
+                label: 'technical-oscillators',
+                to: 'https://www.tradingwolf.com/features/technical-oscillators/',
+              },
             ],
           },
           {
