@@ -39,17 +39,17 @@ const config = {
       }),
     ],
   ],
-  //   themes: [
-  //   [
-  //     "@easyops-cn/docusaurus-search-local",
-  //     {
-  //       hashed: true,
-  //       language: ["en"],
-  //       highlightSearchTermsOnTargetPage: true,
-  //       explicitSearchResultPath: true,
-  //     },
-  //   ],
-  // ],
+  themes: [
+    [
+      "@easyops-cn/docusaurus-search-local",
+      {
+        hashed: true,
+        language: ["en"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
