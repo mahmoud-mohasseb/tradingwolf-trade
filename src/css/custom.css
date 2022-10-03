@@ -28,12 +28,12 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1); */
 }
 /* Overriding root Infima variables */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #4e89e8;
-  --search-local-highlight-color: #d23669;
+  --search-local-highlight-color: #242d47;
 }
 /* Styling one class specially in dark mode */
-[data-theme='dark'] .purple-text {
+[data-theme="dark"] .purple-text {
   color: plum;
 }
 
@@ -49,8 +49,8 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 } */
 .navbar {
-  padding:20px;
-  height:100px;
+  padding: 20px;
+  height: 100px;
 }
 .navbar a {
   font-family: Roboto, Helvetica, Arial, sans-serif;
@@ -59,10 +59,10 @@
   letter-spacing: 0;
   line-height: 50px;
   text-decoration: none;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-.navbar a :hover{
+.navbar a :hover {
   color: rgb(74, 73, 162);
 }
 
@@ -81,13 +81,13 @@
 }
 
 .footer--dark {
-  --ifm-footer-background-color: #272822;
+  --ifm-footer-background-color: #4a49a2;
   --ifm-footer-padding-vertical: 5rem;
 }
 
 .footer__logo {
   width: 7.125rem;
-  height: 6.125rem;
+  height: 7.125rem;
   border-radius: 10rem;
 }
 
