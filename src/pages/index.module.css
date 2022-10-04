@@ -38,7 +38,7 @@ p {
 
 .containercards {
   background-image: url("../../assets/background.png");
-  background-color: transparent;
+  background-size: cover;
 }
 .gridflow {
   justify-content: center;
@@ -71,5 +71,10 @@ p {
   }
   .gridflow {
     margin: 0px 40px;
+  }
+  .containercards {
+    background-image: url("../../assets/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
